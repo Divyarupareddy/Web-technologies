@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Seeking Application form</title>
+    <style>
+        body{
+            margin-left: 34%;
+        }
+        div{
+            width: 528px;
+            background-color: aqua;
+            border: solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="Application form">
+        <fieldset style="width: 500px;">
+            <form>
+                <h1 style="text-align: center;">Job Seeking Application form</h1>
+                <label for="Name">Name:
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Last name">
+                </label>
+                <br><br>
+                <label for="Email">Email id:
+                    <input type="text" placeholder="Email id">
+                </label>
+                <br><br>
+                <label for="Address">Address:
+                    <input type="text" placeholder="Street Address">
+
+                    <input type="text" placeholder="Street Address Line 2">
+                </label>
+                <br><br>
+                <label for="City">City:
+                    <input type="text" placeholder="City">
+                </label>
+                <br><br>
+                <label for="Region">Region:
+                    <input type="text" placeholder="Region">
+                </label>
+                <br><br>
+                <label for="Country">Country:
+                    <select name="Country">
+                        <option value="Country">Country</option>
+                        <option value="USA">USA</option>
+                        <option value="India">India</option>
+                        <option value="Germany">Germany</option>
+                    </select>
+                </label>
+                <br><br>
+                <label for="Phone number">Phone number:
+                    <input type="text" placeholder="### ### ####">
+                </label>
+                <br><br>
+                <label for="Alternate Number">Alternate number:
+                    <input type="text" placeholder="### ### ####">
+                </label>
+                <br><br>
+                <label for="Position that you are applying for">Position that you are applying for:
+                    <select name="Position">
+                        <option value="Select">Select</option>
+                        <option value="Manager">Manager</option>
+                        <option value="Assistant manager">Assistant manager</option>
+                        <option value="HR">HR</option>
+                        <option value="Employee">Employee</option>
+                    </select>
+                </label>
+                <br><br>
+                <label for="Job type">Job type:
+                    <select name="Job type">
+                        <option value="Please select">Please select</option>
+                        <option value="Government job">Government job</option>
+                        <option value="Private job">Private job</option>
+                        <option value="Part-time job">Part-time job</option>
+                    </select>
+                </label>
+                <br><br>
+                <label for="Add resume/CV URL">Add resume/CV URL
+                    <input type="resume/url" name="resume" id="resume" size="20">
+                </label>
+                <br><br>
+                <p>How did you hear about us?</p>
+                <br>
+                <input type="radio" name="Google search" id="Google search">Google search
+                <br>
+                <input type="radio" name="Online Advert" id="Online Advert">Online Advert
+                <br>
+                <input type="radio" name="Friend Recommendation" id="Friend Recommendation">Friend Recommendation
+                <br>
+                <input type="radio" name="other" id="other">other
+                <br><br><br>
+                <input type="submit">
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>

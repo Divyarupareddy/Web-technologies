@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deactivating form</title>
+    <style>
+        body{
+            margin-left: 35%;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <fieldset style="width: 500px;">
+            <form>
+                <h1>Deactivating Linkedin account</h1>
+                <p><b>Fill the form to deactivate your Linkedin account</b></p>
+                <label for="Linkedin account">Linkedin Email/User name:
+                    <input type="text" placeholder="Linkedin mail-id">
+                </label>
+                <br><br>
+                <label for="Password">Password:
+                    <input type="password" placeholder="Password">
+                </label>
+                <br><br>
+                <label for="Re-enter Password">Re-enter password:
+                    <input type="text" placeholder="Re-enter your password">
+                </label>
+                <br><br>
+                <p>Tell us the reason for closing your account:</p>
+                <input type="radio" name="reason" id="reason">I have a duplicate account.
+                <br><br>
+                <input type="radio" name="reason" id="reason">I'm getting too many emails.
+                <br><br>
+                <input type="radio" name="reason" id="reason">I'm not getting any value from my membership
+                <br><br>
+                <input type="radio" name="reason" id="reason">I have a privacy concern
+                <br><br>
+                <input type="radio" name="reason" id="reason">I'm receiving unwanted contact
+                <br><br>
+                <input type="radio" name="reason" id="reason">Other
+                <br><br>
+                <label for="Other reason">Other reason
+                    <br>
+                    <textarea name="Other reason" id="Other reason" rows="10" cols="30"></textarea>
+                </label>
+                <br><br>
+                <button type="submit">Deactivate account</button>
+                <br><br>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
