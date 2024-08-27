@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            max-width: 1200px;
+            padding: 20px;
+        }
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 15px 0;
+            border-radius: 8px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .weather-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+            text-align: left;
+        }
+        .weather-card h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .weather-card p {
+            margin: 10px 0;
+        }
+        .weather-card img {
+            width: 100px;
+        }
+        .forecast {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .forecast-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            flex: 1;
+            max-width: 200px;
+        }
+        .forecast-card h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .forecast-card p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Dashboard</h1>
+        </header>
+
+        <div class="weather-card">
+            <h2>Current Weather</h2>
+            <img src="sunny.jpeg" alt="Weather Icon">
+            <p><strong>Location:</strong> City, Country</p>
+            <p><strong>Temperature:</strong> 22°C</p>
+            <p><strong>Condition:</strong> Sunny</p>
+            <p><strong>Humidity:</strong> 60%</p>
+            <p><strong>Wind Speed:</strong> 10 km/h</p>
+        </div>
+
+        <h2>Forecast</h2>
+        <div class="forecast">
+            <div class="forecast-card">
+                <h3>Monday</h3>
+                <img src="/sunny.jpeg" alt="Weather Icon">
+                <p>25°C</p>
+                <p>Sunny</p>
+            </div>
+            <div class="forecast-card">
+                <h3>Tuesday</h3>
+                <img src="/partly-cloudy.png" alt="Weather Icon">
+                <p>22°C</p>
+                <p>Partly Cloudy</p>
+            </div>
+            <div class="forecast-card">
+                <h3>Wednesday</h3>
+                <img src="/rainy.jpeg" alt="Weather Icon">
+                <p>20°C</p>
+                <p>Rainy</p>
+            </div>
+            <div class="forecast-card">
+                <h3>Thursday</h3>
+                <img src="partly-cloudy.png" alt="Weather Icon">
+                <p>23°C</p>
+                <p>Cloudy</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
